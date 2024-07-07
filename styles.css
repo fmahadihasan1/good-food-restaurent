@@ -14,7 +14,7 @@ body {
       rgb(16, 16, 16) -19.5%,
       rgba(16, 16, 16, 0) 100%
     ),
-    url("/assets/hero-bg.png") no-repeat;
+    url("./assets/hero-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
