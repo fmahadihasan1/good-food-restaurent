@@ -8,7 +8,7 @@ body {
 }
 
 .hero-container {
-  height: 100vh;
+  height: 90vh;
   background: linear-gradient(
       0deg,
       rgb(16, 16, 16) -19.5%,
@@ -22,39 +22,91 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-radius: 10px;
 }
 
 .hero {
   width: 950px;
 }
 
-.hero h4{
-    font-size: 28px;
-    font-weight: bold;
-    opacity: 0.8;
+.hero h4 {
+  font-size: 28px;
+  font-weight: bold;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.hero h1 {
+  margin: 16px 0;
+  font-size: 56px;
+  font-weight: bolder;
+}
+
+.hero p {
+  margin: 30px 15px 40px 15px;
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(82, 195, 3);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.brands-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.brands-container .brand h4{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-top: 50px;
+}
+
+.brands-container .brand h1{
+    font-size: 60px;
     margin: 0;
 }
 
-.hero h1{
-    margin: 16px 0;
-    font-size: 56px;
-    font-weight: bolder;
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 50px 0;
+    gap: 30px;
 }
 
-.hero p{
-    margin: 30px 15px 40px 15px ;
-    opacity: 0.7;
-    font-size: 18px;
+.card{
+    padding: 30px 20px 40px;
+    border-bottom: 1px solid  rgb(170, 132, 78);
+    box-shadow: -2px -2px 3px rgb(170, 132, 78);
+    border-radius: 15px;
 }
 
-.btn{
-    padding: 25px 40px;
+.card h3{
+    background: rgba(82, 195, 3, 0.15);
+    display: inline-block;
+    padding: 10px 25px;
     border-radius: 5px;
-    border: none;
-    background-color: rgb(82, 195, 3);
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: bold;
-    
+    margin: 20px 0;
+}
+
+.card h2{
+    font-size: 35px;
+    margin: 0 0 30px 0;
+}
+
+.card p{
+    width: 80%;
+    margin: 0 auto;
 }
